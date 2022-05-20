@@ -1,5 +1,5 @@
 from flask import Flask
-from calapi import config
+from forecast import config
 from flasgger import Swagger
 from loguru import logger
 from dotenv import load_dotenv
